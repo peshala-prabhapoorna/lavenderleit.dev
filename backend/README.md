@@ -1,0 +1,2 @@
+- authentication for Lavender ID
+- views into latest info of applications
