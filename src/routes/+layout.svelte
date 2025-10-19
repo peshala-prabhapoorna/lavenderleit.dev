@@ -3,6 +3,7 @@
 	import favicon from '$lib/assets/favicon.svg';
 
     import Navbar from '$lib/components/navigation/Navbar.svelte';
+    import Footer from '$lib/components/layout/Footer.svelte';
 
 	let { children } = $props();
 </script>
@@ -18,3 +19,7 @@
 <main class="container">
     {@render children?.()}
 </main>
+
+<footer class="container">
+    <Footer />
+</footer>

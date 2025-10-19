@@ -1,4 +1,4 @@
-<div class="navbar bg-base-100 shadow-sm py-6">
+<div class="navbar shadow-sm py-6">
   <div class="flex-1">
     <a class="btn btn-ghost text-2xl" href="/">LavenderLeit</a>
   </div>
