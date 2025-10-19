@@ -40,3 +40,7 @@
   --depth: 1;
   --noise: 1;
 }
+
+.container {
+    @apply max-w-screen-lg mx-auto;
+}

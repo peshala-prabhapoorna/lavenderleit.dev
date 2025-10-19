@@ -1,0 +1,11 @@
+<div class="navbar bg-base-100 shadow-sm py-6">
+  <div class="flex-1">
+    <a class="btn btn-ghost text-2xl" href="/">LavenderLeit</a>
+  </div>
+  <div class="flex-none">
+    <ul class="menu menu-horizontal px-1 text-base font-bold">
+      <li class="mx-2"><a href="/blog">Blog</a></li>
+      <li class="mx-2"><a href="/projects">Projects</a></li>
+    </ul>
+  </div>
+</div>
