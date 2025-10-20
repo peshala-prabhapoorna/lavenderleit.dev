@@ -17,7 +17,7 @@
 
 <div class="my-2 grid grid-flow-col justify-start gap-4">
 	{#each socials as { icon, href }}
-		<a {href}>
+		<a {href} target="_blank" rel="noreferrer">
 			<svelte:component this={icon} />
 		</a>
 	{/each}
