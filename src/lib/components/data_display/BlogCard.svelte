@@ -1,18 +1,23 @@
+<script lang="ts">
+    let { imgSrc, imgAlt, title, badges, excerpt, tags } = $props();
+</script>
+
 <div class="card bg-base-200 w-96 shadow-sm">
   <figure>
-    <img
-      src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-      alt="Shoes" />
+    <img src={imgSrc} alt={imgAlt} />
   </figure>
   <div class="card-body">
     <h2 class="card-title">
-      Card Title
-      <div class="badge badge-secondary">NEW</div>
+      {title}
+      {#each badges as badge}
+          <div class="badge badge-secondary">{badge}</div>
+      {/each}
     </h2>
-    <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+    <p>{excerpt}</p>
     <div class="card-actions justify-end">
-      <div class="badge badge-outline">Fashion</div>
-      <div class="badge badge-outline">Products</div>
+      {#each tags as tag}
+          <div class="badge badge-outline">{tag}</div>
+      {/each}
     </div>
   </div>
 </div>
