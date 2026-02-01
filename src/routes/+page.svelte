@@ -19,7 +19,7 @@
         <div class="flex flex-col">
             <h1 class="text-3xl font-bold">LavenderLeit</h1>
             <p class="text-lg">
-                AI Engineer, Software Developer, FOSS Enthusiast
+                Software Engineer, Software Developer, FOSS Enthusiast
             </p>
             <SocialMedia />
             <p>
