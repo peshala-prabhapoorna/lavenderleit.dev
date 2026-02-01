@@ -13,15 +13,11 @@
 </svelte:head>
 
 <div class="flex h-screen flex-col">
-    <header class="container">
-        <Navbar />
-    </header>
+    <Navbar />
 
-    <main class="container flex flex-1">
+    <main class="container flex justify-center flex-1">
         {@render children?.()}
     </main>
 
-    <footer class="container">
-        <Footer />
-    </footer>
+    <Footer />
 </div>
