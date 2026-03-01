@@ -6,7 +6,7 @@
 
 <div class="grid grid-cols-2 gap-12 p-8">
     {#each data.posts as post}
-        <a href="/blog/{post.slug}">
+        <a href="/content/{post.slug}">
             <BlogCard
                 imgSrc={post.metadata.imgSrc}
                 imgAlt={post.metadata.imgAlt}
