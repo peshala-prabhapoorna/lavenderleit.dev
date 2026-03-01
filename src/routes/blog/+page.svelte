@@ -1,14 +1,20 @@
 <script lang="ts">
     import BlogCard from '$lib/components/data_display/BlogCard.svelte';
+
+    let { data } = $props();
 </script>
 
-<div class="grid grid-cols-2 gap-12">
-    <BlogCard
-        imgSrc="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-        imgAlt="shoe"
-        title="Card Title"
-        badges={["NEW"]}
-        excerpt="A card component has a figure, a body part, and inside body there are title and actions parts"
-        tags={["Fashion", "Products"]}
-    />
+<div class="grid grid-cols-2 gap-12 p-8">
+    {#each data.posts as post}
+        <a href="/blog/{post.slug}">
+            <BlogCard
+                imgSrc={post.metadata.imgSrc}
+                imgAlt={post.metadata.imgAlt}
+                title={post.metadata.title}
+                badges={post.metadata.badges}
+                excerpt={post.metadata.excerpt}
+                tags={post.metadata.tags}
+            />
+        </a>
+    {/each}
 </div>

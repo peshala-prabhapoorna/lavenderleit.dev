@@ -1,0 +1,18 @@
+---
+title: Good stuff in your markdown
+excerpt: Markdown is pretty good but sometimes you just need more. Sometimes you need a boinger like this.
+date: 2026-02-07
+tags:
+  - markdown
+  - fun
+badges:
+  - HOT
+imgSrc: https://static.wikia.nocookie.net/chainsaw-man/images/d/db/Chainsaw_Man_Movie_-_Reze_Arc_Key_Visual_6.png
+imgAlt: shoe
+---
+
+# Good stuff in your markdown
+
+Markdown is pretty good but sometimes you just need more.
+
+**Sometimes you need a boinger like this**
