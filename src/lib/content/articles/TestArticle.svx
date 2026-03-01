@@ -1,0 +1,18 @@
+---
+title: We're Running Tests here
+excerpt: Lokking fine so far. Making good progress. The revolution is about to be televised.
+date: 2026-02-08
+tags:
+  - testing
+  - svelte
+badges:
+  - NEW
+imgSrc: https://static.wikia.nocookie.net/chainsaw-man/images/6/67/Chainsaw_Man_Movie_-_Reze_Arc_Key_Visual_1.png
+imgAlt: shoe
+---
+
+# We're Running Tests here
+
+*Lokking fine so far*. Making good progress
+
+> The revolution is about to be televised.
